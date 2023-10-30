@@ -16,7 +16,7 @@ export default function AboutPage() {
 	return (
 		<div>
 			<div className="flex justify-center">
-				<h1 className={title()}>Meet the Team</h1>
+				<h1 className={title()}>Meet the Next Sketch Team!</h1>
 			</div>
 			<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 h-full">
 				<div className="flex flex-row flex-wrap justify-center">

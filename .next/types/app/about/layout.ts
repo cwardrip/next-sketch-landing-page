@@ -1,8 +1,8 @@
-// File: /Users/chriswardrip/NYOI7/Week-8/next-sketch-landing-page/app/about/layout.tsx
-import * as entry from '../../../../app/about/layout.js'
+// File: /Users/chriswardrip/NYOI7/next-sketch-landing-page/app/about/layout.tsx
+import * as entry from '../../../../app/team/layout.jsx'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../app/about/layout.js')
+type TEntry = typeof import('../../../../app/team/layout.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
@@ -16,10 +16,10 @@ checkFields<Diff<{
   preferredRegion?: 'auto' | 'global' | 'home' | string | string[]
   runtime?: 'nodejs' | 'experimental-edge' | 'edge'
   maxDuration?: number
-  
+
   metadata?: any
   generateMetadata?: Function
-  
+
 }, TEntry, ''>>()
 
 // Check the prop type of the entry function
@@ -62,7 +62,7 @@ type MaybeField<T, K extends string> = T extends { [k in K]: infer G } ? G exten
 
 
 
-function checkFields<_ extends { [k in keyof any]: never }>() {}
+function checkFields<_ extends { [k in keyof any]: never }>() { }
 
 // https://github.com/sindresorhus/type-fest
 type Numeric = number | bigint

@@ -24,7 +24,8 @@ import {
 	TwitterIcon,
 	GithubIcon,
 	DiscordIcon,
-	HeartFilledIcon
+	HeartFilledIcon,
+	LinkedInIcon
 } from "@/components/icons";
 
 import { Logo } from "@/components/icons";
@@ -86,9 +87,9 @@ export const Navbar = () => {
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
 						<GithubIcon className="text-default-500 flex flex-end" />
 					</Link>
-					{/* <Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
-						<TwitterIcon className="text-default-500" />
-					</Link> */}
+					<Link isExternal href={siteConfig.links.linkedIn} aria-label="Twitter">
+						<LinkedInIcon className="text-default-500" />
+					</Link>
 					{/* <ThemeSwitch /> */}
 				</NavbarItem>
 			</NavbarContent>

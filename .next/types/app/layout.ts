@@ -1,4 +1,4 @@
-// File: /Users/chriswardrip/NYOI7/Week-8/next-sketch-landing-page/app/layout.tsx
+// File: /Users/chriswardrip/NYOI7/next-sketch-landing-page/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

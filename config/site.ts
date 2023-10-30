@@ -8,17 +8,13 @@ export const siteConfig = {
 			label: "Home",
 			href: "/",
 		},
+		// {
+		// 	label: "About",
+		// 	href: "/about",
+		// },
 		{
-			label: "Docs",
-			href: "/docs",
-		},
-		{
-			label: "Blog",
-			href: "/blog",
-		},
-		{
-			label: "About",
-			href: "/about",
+			label: "Team",
+			href: "/team",
 		}
 	],
 	// navMenuItems: [
@@ -57,7 +53,7 @@ export const siteConfig = {
 	// ],
 	links: {
 		github: "https://github.com/oslabs-beta/next-sketch",
-		// twitter: "https://twitter.com/getnextui",
+		linkedIn: "https://www.linkedin.com",
 		// docs: "https://nextui.org"
 	},
 };
