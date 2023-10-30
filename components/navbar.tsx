@@ -24,8 +24,7 @@ import {
 	TwitterIcon,
 	GithubIcon,
 	DiscordIcon,
-	HeartFilledIcon,
-	SearchIcon,
+	HeartFilledIcon
 } from "@/components/icons";
 
 import { Logo } from "@/components/icons";
