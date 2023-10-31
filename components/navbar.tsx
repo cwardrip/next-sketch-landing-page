@@ -25,7 +25,8 @@ import {
 	GithubIcon,
 	DiscordIcon,
 	HeartFilledIcon,
-	LinkedInIcon
+	LinkedInIcon,
+	MediumIcon
 } from "@/components/icons";
 
 import { Logo } from "@/components/icons";
@@ -90,6 +91,9 @@ export const Navbar = () => {
 					<Link isExternal href={siteConfig.links.linkedIn} aria-label="Twitter">
 						<LinkedInIcon className="text-default-500" />
 					</Link>
+					<Link isExternal href={siteConfig.links.medium} aria-label="Medium">
+						<MediumIcon className="text-default-500" />
+					</Link>
 					{/* <ThemeSwitch /> */}
 				</NavbarItem>
 			</NavbarContent>
@@ -98,6 +102,12 @@ export const Navbar = () => {
 				<Link isExternal href={siteConfig.links.github} aria-label="Github">
 					<GithubIcon className="text-default-500" />
 				</Link>
+				<Link isExternal href={siteConfig.links.linkedIn} aria-label="Twitter">
+					<LinkedInIcon className="text-default-500" />
+				</Link>
+				<Link isExternal href={siteConfig.links.medium} aria-label="Medium">
+						<MediumIcon className="text-default-500" />
+					</Link>
 				{/* <ThemeSwitch /> */}
 				<NavbarMenuToggle />
 			</NavbarContent>
