@@ -5,10 +5,12 @@ import { Button } from "@nextui-org/button";
 
 export default function Home() {
 	return (
-		<section className="flex flex-col items-end justify-center gap-4 py-4 md:py-5">
+		<section className={"customFont flex flex-col items-end justify-center gap-4 py-4 md:py-5"}>
+			{/* <section className="flex flex-col items-end justify-center gap-4 py-4 md:py-5"> */}
 			<div className="w-full h-screen flex justify-center items-center">
 				<div className="pr-4 flex flex-col items-center justify-center">
 					<div className="flex flex-col items-center">
+						{/* <p className={`customFont text-7xl text-center`}>Next-Level Prototyping</p> */}
 						<p className="text-7xl text-center">Next-Level Prototyping</p>
 						<p className="text-7xl text-center">Next-Level Results</p>
 					</div>
