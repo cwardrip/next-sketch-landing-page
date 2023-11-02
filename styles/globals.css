@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 .customFont {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Agbalumo', sans-serif;
+    ;
 }
+
+/* .agbalumo-section {
+    font-family: 'Agbalumo', sans-serif;
+  } */

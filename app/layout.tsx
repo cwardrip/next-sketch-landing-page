@@ -40,7 +40,8 @@ export default function RootLayout({
 			<Head>
 				<link
 					rel="stylesheet"
-					href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+					// href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+					href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap"
 				/>
 			</Head>
 			<body

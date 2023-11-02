@@ -16,30 +16,32 @@ export default function Home() {
 					</div>
 					<div className="p-10">
 						<Button size="lg" radius="full" color="primary">
-							Install Now
+							Launch Now
 						</Button>
 					</div>
 				</div>
 			</div>
 
 			{/* ----------- Row 2*/}
-			<div className="w-full flex justify-between items-center pr-10">
+			<div className="w-full flex justify-between items-center p-10">
 				<div className="md:w-1/2 pr-4 p-10">
 					<div className="flex flex-col items-center"> {/* Center text both horizontally and vertically */}
 						<p className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl text-center">NextSketch is a desktop application designed to assist developers in visualizing and creating the file structure for their websites, all within a single integrated environment.</p>
 					</div>
 				</div>
 
-				<Card shadow="lg" className="hidden md:flex">
+				<Card shadow="lg" className="hidden md:flex pr-20">
 					<CardBody>
 						<div className="flex flex-col w-full">
 							<div className="flex justify-center">
 								<Image
 									src="/nature-reflection-liquid-wave-smooth-shiny-generated-by-ai.jpg"
-									width={600}
-									height={600}
+									width={500}
+									height={500}
 									alt="liquid-wave picture"
 									className="w-auto justify-center rounded-lg border-large"
+									style={{ objectFit: 'cover', width: '450px', height: '450px' }}
+
 								/>
 							</div>
 						</div>
@@ -48,24 +50,26 @@ export default function Home() {
 			</div>
 			{/* //-----Row 3 */}
 
-			<div className="w-full flex justify-between items-center pl-10">
-				<Card shadow="lg" className="hidden md:flex">
+			<div className="w-full flex justify-between items-center pl-10 py-10">
+				<Card shadow="lg" className="hidden md:flex pl-20">
 					<CardBody>
 						<div className="flex flex-col w-full">
 							<div className="flex justify-center">
 								<Image
 									src="/abstract-wavy-background.jpg"
 									width={400}
-									height={200}
+									height={400}
 									alt="liquid-wave picture"
 									className="w-auto justify-center rounded-lg border-large"
+									style={{ objectFit: 'cover', width: '450px', height: '450px' }}
+
 								/>
 							</div>
 						</div>
 					</CardBody>
 				</Card>
-				<div className="md:w-1/2 pr-4 p-10">
-					<div className="flex flex-col items-center">
+				<div className="md:w-1/2 p-10">
+					<div className="flex flex-col items-center pr-10">
 						<p className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl text-center">This tool will not only provide the ability to create the necessary files and directories but also include boilerplate code for each file, streamlining the development process.</p>
 					</div>
 				</div>

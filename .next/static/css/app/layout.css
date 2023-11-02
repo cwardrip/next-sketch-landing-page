@@ -1892,6 +1892,10 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .\!pb-0 {
   padding-bottom: 0px !important;
 }
@@ -1957,6 +1961,15 @@ video {
 }
 .pt-px {
   padding-top: 1px;
+}
+.pl-12 {
+  padding-left: 3rem;
+}
+.pl-20 {
+  padding-left: 5rem;
+}
+.pr-20 {
+  padding-right: 5rem;
 }
 .text-left {
   text-align: left;
@@ -2896,8 +2909,14 @@ video {
 }
 
 .customFont {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Agbalumo', sans-serif;
+    ;
 }
+
+/* .agbalumo-section {
+    font-family: 'Agbalumo', sans-serif;
+  } */
 
 .placeholder\:text-danger::-moz-placeholder {
   --tw-text-opacity: 1;
