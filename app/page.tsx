@@ -30,7 +30,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<Card shadow="lg" className="hidden md:flex pr-20">
+				<Card shadow="lg" className="hidden md:flex mr-20">
 					<CardBody>
 						<div className="flex flex-col w-full">
 							<div className="flex justify-center">
@@ -51,7 +51,7 @@ export default function Home() {
 			{/* //-----Row 3 */}
 
 			<div className="w-full flex justify-between items-center pl-10 py-10">
-				<Card shadow="lg" className="hidden md:flex pl-20">
+				<Card shadow="lg" className="hidden md:flex ml-20">
 					<CardBody>
 						<div className="flex flex-col w-full">
 							<div className="flex justify-center">
