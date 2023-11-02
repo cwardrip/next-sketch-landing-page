@@ -23,7 +23,7 @@ export default function Home() {
 			</div>
 
 			{/* ----------- Row 2*/}
-			<div className="w-full flex justify-between items-center p-10">
+			<div className="w-full flex justify-between items-center p-10" id="test">
 				<div className="md:w-1/2 pr-4 p-10">
 					<div className="flex flex-col items-center"> {/* Center text both horizontally and vertically */}
 						<p className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl text-center">NextSketch is a desktop application designed to assist developers in visualizing and creating the file structure for their websites, all within a single integrated environment.</p>
@@ -35,12 +35,15 @@ export default function Home() {
 						<div className="flex flex-col w-full">
 							<div className="flex justify-center">
 								<Image
-									src="/nature-reflection-liquid-wave-smooth-shiny-generated-by-ai.jpg"
+									// src="/nature-reflection-liquid-wave-smooth-shiny-generated-by-ai.jpg"
+									src="/test.gif"
 									width={500}
 									height={500}
 									alt="liquid-wave picture"
 									className="w-auto justify-center rounded-lg border-large"
-									style={{ objectFit: 'cover', width: '450px', height: '450px' }}
+									style={{ objectFit: 'cover', width: '600px', height: '600px' }}
+									layout="intrinsic" // Set the layout to "intrinsic" to maintain aspect ratio
+
 
 								/>
 							</div>
@@ -56,12 +59,14 @@ export default function Home() {
 						<div className="flex flex-col w-full">
 							<div className="flex justify-center">
 								<Image
-									src="/abstract-wavy-background.jpg"
-									width={400}
-									height={400}
+									src="/test.gif"
+									width={500}
+									height={500}
 									alt="liquid-wave picture"
 									className="w-auto justify-center rounded-lg border-large"
-									style={{ objectFit: 'cover', width: '450px', height: '450px' }}
+									style={{ objectFit: 'cover', width: '600px', height: '600px' }}
+									layout="intrinsic" // Set the layout to "intrinsic" to maintain aspect ratio
+
 
 								/>
 							</div>

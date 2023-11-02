@@ -5,10 +5,10 @@ import Image from 'next/image'
 export const Logo: React.FC = () => (
 	<div>
 		<Image
-			src="/NextSketch-logo-DALL-E-removebg-preview.png"
+			src="/nextsketchlogo.png"
 			alt="Logo"
-			width={60}
-			height={60}
+			width={35}
+			height={35}
 		/>
 	</div>
 );

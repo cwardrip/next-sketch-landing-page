@@ -723,17 +723,17 @@ video {
 .ml-2 {
   margin-left: 0.5rem;
 }
+.ml-20 {
+  margin-left: 5rem;
+}
 .mr-2 {
   margin-right: 0.5rem;
-}
-.mt-2 {
-  margin-top: 0.5rem;
 }
 .mr-20 {
   margin-right: 5rem;
 }
-.ml-20 {
-  margin-left: 5rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 .box-border {
   box-sizing: border-box;
@@ -1926,9 +1926,6 @@ video {
 .pl-10 {
   padding-left: 2.5rem;
 }
-.pl-20 {
-  padding-left: 5rem;
-}
 .pl-4 {
   padding-left: 1rem;
 }
@@ -1946,9 +1943,6 @@ video {
 }
 .pr-2 {
   padding-right: 0.5rem;
-}
-.pr-20 {
-  padding-right: 5rem;
 }
 .pr-4 {
   padding-right: 1rem;
