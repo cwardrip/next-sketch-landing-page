@@ -35,8 +35,8 @@ export default function Home() {
 						<div className="flex flex-col w-full">
 							<div className="flex justify-center">
 								<Image
-									src="/nature-reflection-liquid-wave-smooth-shiny-generated-by-ai.jpg"
-									// src="/test.gif"
+									// src="/nature-reflection-liquid-wave-smooth-shiny-generated-by-ai.jpg"
+									src="/Tree-demo.gif"
 									width={500}
 									height={500}
 									alt="liquid-wave picture"
@@ -59,7 +59,7 @@ export default function Home() {
 						<div className="flex flex-col w-full">
 							<div className="flex justify-center">
 								<Image
-									src="/test.gif"
+									src="/Preview-demo.gif"
 									width={500}
 									height={500}
 									alt="liquid-wave picture"
