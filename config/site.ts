@@ -54,6 +54,6 @@ export const siteConfig = {
 	links: {
 		github: "https://github.com/oslabs-beta/next-sketch",
 		linkedIn: "https://www.linkedin.com/company/nextsketch-official/",
-		medium: "https://medium.com"
+		medium: "https://medium.com/@jhuang4647/supercharge-prototyping-with-nextsketch-df90eec49682"
 	},
 };

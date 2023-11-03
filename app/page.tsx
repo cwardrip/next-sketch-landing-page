@@ -15,9 +15,11 @@ export default function Home() {
 						<p className="text-7xl text-center">Next-Level Results</p>
 					</div>
 					<div className="p-10">
-						<Button size="lg" radius="full" color="primary">
-							Launch Now
-						</Button>
+						<a href="https://github.com/oslabs-beta/next-sketch" target="_blank">
+							<Button size="lg" radius="full" color="primary">
+								Launch Now
+							</Button>
+						</a>
 					</div>
 				</div>
 			</div>
