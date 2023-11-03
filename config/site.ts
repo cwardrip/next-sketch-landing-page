@@ -53,7 +53,7 @@ export const siteConfig = {
 	// ],
 	links: {
 		github: "https://github.com/oslabs-beta/next-sketch",
-		linkedIn: "https://www.linkedin.com",
+		linkedIn: "https://www.linkedin.com/company/nextsketch-official/",
 		medium: "https://medium.com"
 	},
 };
