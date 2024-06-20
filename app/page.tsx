@@ -5,16 +5,14 @@ import { Button } from "@nextui-org/button";
 
 export default function Home() {
 	return (
-		<section className={"customFont flex flex-col items-end justify-center gap-4 py-4 md:py-5"}>
-			{/* <section className="flex flex-col items-end justify-center gap-4 py-4 md:py-5"> */}
+		<section className="customFont flex flex-col items-center justify-center gap-4 py-4 md:py-5">
 			<div className="w-full h-screen flex justify-center items-center">
-				<div className="pr-4 flex flex-col items-center justify-center">
+				<div className="text-center px-4 md:px-10">
 					<div className="flex flex-col items-center">
-						{/* <p className={`customFont text-7xl text-center`}>Next-Level Prototyping</p> */}
-						<p className="text-7xl text-center">Next-Level Prototyping</p>
-						<p className="text-7xl text-center">Next-Level Results</p>
+						<p className="text-4xl md:text-5xl lg:text-7xl">Next-Level Prototyping</p>
+						<p className="text-4xl md:text-5xl lg:text-7xl">Next-Level Results</p>
 					</div>
-					<div className="p-10">
+					<div className="mt-10">
 						<a href="https://github.com/oslabs-beta/next-sketch" target="_blank">
 							<Button size="lg" radius="full" color="primary">
 								Launch Now
@@ -24,64 +22,49 @@ export default function Home() {
 				</div>
 			</div>
 
-			{/* ----------- Row 2*/}
-			<div className="w-full flex justify-between items-center p-10" id="test">
-				<div className="md:w-1/2 pr-4 p-10">
-					<div className="flex flex-col items-center"> {/* Center text both horizontally and vertically */}
-						<p className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl text-center">NextSketch is a desktop application designed to assist developers in visualizing and creating the file structure for their websites, all within a single integrated environment.</p>
-					</div>
+			{/* ----------- Row 2 */}
+			<div className="w-full flex flex-col md:flex-row justify-between items-center p-4 md:p-10 gap-10">
+				<div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left p-4 order-2 md:order-1">
+					<p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+						NextSketch is a desktop application designed to assist developers in visualizing and creating the file structure for their websites, all within a single integrated environment.
+					</p>
 				</div>
-
-				<Card shadow="lg" className="hidden md:flex mr-20">
+				<Card shadow="lg" className="flex-1 order-1 md:order-2">
 					<CardBody>
-						<div className="flex flex-col w-full">
-							<div className="flex justify-center">
-								<Image
-									// src="/nature-reflection-liquid-wave-smooth-shiny-generated-by-ai.jpg"
-									src="/Demo1.gif"
-									width={500}
-									height={500}
-									alt="liquid-wave picture"
-									className="w-auto justify-center rounded-lg border-large"
-									style={{ objectFit: 'cover', width: '600px', height: '600px' }}
-									layout="intrinsic" // Set the layout to "intrinsic" to maintain aspect ratio
-
-
-								/>
-							</div>
-						</div>
+						<Image
+							src="/Demo1.gif"
+							width={500}
+							height={500}
+							alt="Demo 1"
+							className="rounded-lg"
+							style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
+							layout="responsive"
+						/>
 					</CardBody>
 				</Card>
 			</div>
-			{/* //-----Row 3 */}
 
-			<div className="w-full flex justify-between items-center pl-10 py-10">
-				<Card shadow="lg" className="hidden md:flex ml-20">
+			{/* ----------- Row 3 */}
+			<div className="w-full flex flex-col md:flex-row justify-between items-center p-4 md:p-10 gap-10">
+				<div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left p-4 order-2 md:order-1">
+					<p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+						This tool will not only provide the ability to create the necessary files and directories but also include boilerplate code for each file, streamlining the development process.
+					</p>
+				</div>
+				<Card shadow="lg" className="flex-1 order-1 md:order-2">
 					<CardBody>
-						<div className="flex flex-col w-full">
-							<div className="flex justify-center">
-								<Image
-									src="/Demo2.gif"
-									width={500}
-									height={500}
-									alt="liquid-wave picture"
-									className="w-auto justify-center rounded-lg border-large"
-									style={{ objectFit: 'cover', width: '600px', height: '600px' }}
-									layout="intrinsic" // Set the layout to "intrinsic" to maintain aspect ratio
-
-
-								/>
-							</div>
-						</div>
+						<Image
+							src="/Demo2.gif"
+							width={500}
+							height={500}
+							alt="Demo 2"
+							className="rounded-lg"
+							style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
+							layout="responsive"
+						/>
 					</CardBody>
 				</Card>
-				<div className="md:w-1/2 p-10">
-					<div className="flex flex-col items-center pr-10">
-						<p className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl text-center">This tool will not only provide the ability to create the necessary files and directories but also include boilerplate code for each file, streamlining the development process.</p>
-					</div>
-				</div>
 			</div>
-		</section >
-
+		</section>
 	);
 }
